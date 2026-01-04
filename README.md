@@ -129,7 +129,7 @@ online-scam-risk-predictor/
 ├── .gitignore
 ├── README.md                    # Main project overview
 └── run.sh / run.bat             # Easy startup scripts
-
+```
 
 <br>
 

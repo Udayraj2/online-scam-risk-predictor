@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UPI Scam Risk Predictor</title>
+
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container-fluid min-vh-100 d-flex align-items-center justify-content-start">
+    <div class="card shadow-lg p-4 upi-card">
+
+        <!-- Title -->
+        <h2 class="text-center mb-4 fw-bold d-flex align-items-center justify-content-center gap-2">
+            <img src="images/mylogo.jpg" alt="Logo" class="logo-img">
+            UPI Scam Risk Predictor
+        </h2>
+
+        <!-- App Selector -->
+        <div class="mb-3">
+            <label class="form-label fw-semibold">Select App</label>
+            <div class="d-flex gap-3 flex-wrap">
+                <button type="button" class="btn app-btn active" data-app="Google Pay">
+                    <img src="images/gpay.png" class="app-logo"> GPay
+                </button>
+                <button type="button" class="btn app-btn" data-app="PhonePe">
+                    <img src="images/phonepe.png" class="app-logo"> PhonePe
+                </button>
+                <button type="button" class="btn app-btn" data-app="Paytm">
+                    <img src="images/paytm.png" class="app-logo"> Paytm
+                </button>
+            </div>
+        </div>
+
+        <!-- Message -->
+        <div class="mb-3">
+            <label class="form-label fw-semibold">UPI Message</label>
+            <textarea id="messageInput" class="form-control" rows="3"
+                placeholder="Paste your UPI message here"></textarea>
+        </div>
+
+        <!-- Amount -->
+        <div class="mb-3">
+            <label class="form-label fw-semibold">Amount (₹)</label>
+            <input type="number" id="amountInput" class="form-control" placeholder="Enter amount">
+        </div>
+
+        <!-- Sender -->
+        <div class="mb-3">
+            <label class="form-label fw-semibold">Sender Type</label>
+            <select id="senderType" class="form-select">
+                <option value="bank">Bank</option>
+                <option value="merchant">Merchant</option>
+                <option value="unknown">Unknown</option>
+            </select>
+        </div>
+
+        <!-- Button -->
+        <div class="d-grid mb-3">
+            <button id="predictBtn" class="btn btn-primary btn-lg fw-bold">
+                Check Scam Risk
+            </button>
+        </div>
+
+        <!-- Result -->
+        <div id="resultCard" class="alert d-none p-3"></div>
+
+        <!-- Disclaimer -->
+        <div id="disclaimer" class="disclaimer d-none">
+            ⚠️ This tool is for educational and risk-awareness purposes only.
+            AI predictions should not be considered financial or legal advice.
+        </div>
+
+    </div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

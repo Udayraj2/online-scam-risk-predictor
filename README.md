@@ -1,13 +1,15 @@
 🚨 **UPI Scam Risk Predictor (AI-Based)**
 
-An AI-powered web application that analyzes UPI transaction messages and predicts the risk of potential scams to help users make safer payment decisions.
+An AI-powered web application that analyzes UPI transaction messages and predicts the risk of potential scams to help 
+users make safer payment decisions.
 
 <br>
 
 📌 **Project Overview**
 
 With the rapid adoption of UPI payments in India, online scams have increased significantly.
-This project aims to raise awareness by predicting whether a UPI transaction message is High Risk, Medium Risk, or Low Risk using machine learning.
+This project aims to raise awareness by predicting whether a UPI transaction message is High Risk, Medium Risk, or Low 
+Risk using machine learning.
 
 The system is designed as an end-to-end AI application, covering:
 

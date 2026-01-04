@@ -2,6 +2,7 @@
 
 An AI-powered web application that analyzes UPI transaction messages and predicts the risk of potential scams to help users make safer payment decisions.
 
+
 📌 **Project Overview**
 
 With the rapid adoption of UPI payments in India, online scams have increased significantly.
@@ -16,6 +17,7 @@ The system is designed as an end-to-end AI application, covering:
 - API backend
 
 - Interactive frontend UI
+
 
 
 🎯 **Key Features** :

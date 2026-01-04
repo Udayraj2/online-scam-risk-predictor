@@ -37,31 +37,31 @@ The system is designed as an end-to-end AI application, covering:
 
 🛠️ **Tech Stack**
 
-- **Backend** :
+**1.Backend** :
 
-1.Python
+- Python
 
-2.FastAPI
+- FastAPI
 
-3.Scikit-learn
+- Scikit-learn
 
-4.Pydantic
+- Pydantic
 
-- **Frontend** :
+**2.Frontend** :
 
-1.HTML
+- HTML
 
-2.CSS
+- CSS
 
-3.JavaScript
+- JavaScript
 
-4.Bootstrap 5
+- Bootstrap 5
 
-- **Model**
+**3.Model**
 
-1.Trained on synthetic UPI scam dataset
+- Trained on synthetic UPI scam dataset
 
-2.Text + numeric feature based classification
+- Text + numeric feature based classification
 
 
 🗂️ **Project Structure**

@@ -2,6 +2,7 @@
 
 An AI-powered web application that analyzes UPI transaction messages and predicts the risk of potential scams to help users make safer payment decisions.
 
+<br>
 
 📌 **Project Overview**
 

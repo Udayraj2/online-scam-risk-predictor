@@ -77,15 +77,19 @@ online-scam-risk-predictor/
 │   ├── app/
 │   │   ├── __init__.py
 │   │   ├── main.py              # FastAPI entry point
+│   │   │
 │   │   ├── routes/              # API routes
 │   │   │   ├── __init__.py
 │   │   │   └── predict.py       # Scam prediction endpoint
+│   │   │
 │   │   ├── models/              # ML model loading
 │   │   │   ├── __init__.py
 │   │   │   └── scam_model.py
+│   │   │
 │   │   ├── schemas/             # Pydantic schemas
 │   │   │   ├── __init__.py
 │   │   │   └── request.py
+│   │   │
 │   │   └── utils/               # Helper functions
 │   │       ├── __init__.py
 │   │       └── text_preprocess.py
@@ -100,9 +104,10 @@ online-scam-risk-predictor/
 │   ├── data/
 │   │   ├── raw/                 # Original datasets
 │   │   └── processed/           # Cleaned datasets
+│   │
 │   ├── notebooks/               # Jupyter experiments
 │   ├── train_model.py           # Model training script
-│   └── evaluate_model.py        # Evaluation logic
+│   └── evaluate_model.py        # Model evaluation
 │
 ├── frontend/                    # Frontend (User Interface)
 │   ├── index.html
@@ -122,7 +127,8 @@ online-scam-risk-predictor/
 │
 ├── .gitignore
 ├── README.md                    # Main project overview
-└── run.sh / run.bat             # Easy startup script
+└── run.sh / run.bat             # Easy startup scripts
+
 
 <br>
 

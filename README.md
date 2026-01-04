@@ -71,6 +71,7 @@ The system is designed as an end-to-end AI application, covering:
 
 🗂️ **Project Structure**
 
+```text
 online-scam-risk-predictor/
 │
 ├── backend/                     # Backend (API + ML logic)

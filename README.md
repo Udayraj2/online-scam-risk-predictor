@@ -39,7 +39,7 @@ The system is designed as an end-to-end AI application, covering:
 
 <br>
 
-🛠️ **Tech Stack**
+## 🛠️ **Tech Stack**
 
 **1.Backend** :
 
